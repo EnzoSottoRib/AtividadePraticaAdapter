@@ -11,5 +11,9 @@ public class Client {
         contexto.setContexto(new AdapterTwitter(new APITwitter()));
 
         contexto.enviar("String quinta", "String sexta");
+
+        contexto.setContexto(new AdapterLinkedIn(new APILinkedIn()));
+
+        contexto.enviar("String sétima", "String oitava");
     }
 }
